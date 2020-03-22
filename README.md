@@ -1,7 +1,7 @@
 # Machine Learning to the Rescue – Salary Setting
 
 <p align="center">
-  <img width="230" height="200" src="Images/salary.png">
+  <img width="230" height="200" src="images/salary.png">
 </p>
 
 # Introduction
