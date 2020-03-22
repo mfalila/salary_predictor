@@ -55,3 +55,10 @@ As part of data cleaning I implemented the following steps:
     * No additional steps were needed as the dataset was now clean and ready for modeling
 
 For detailed code and charts from preprocessing please see: 03. Data_Exploration and 04: Data_Modeling
+
+# Data Modeling
+To model the data, I implemented the following steps:
+ - Engineered three more features:
+    * less_than_HighSchool – an indicator for without high school completion
+    * eduAndExp – indicates masters or higher education and more than five years of experience
+    * notEduNotExp – indicates no college and less than one-year experience
