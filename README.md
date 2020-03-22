@@ -77,5 +77,14 @@ To model the data, I implemented the following steps:
 
 For detailed code for the modeling process please see 04. Data_Modeling 
         
-        
+# Results
+
+The Gradient Boosting Regressor performed best on our data with a prediction error of 357.91, meaning if this model is to be implemented in a real world setting then predictions from this model will be between + or – $357.91 of the true yearly salary for the position which is practically reasonable.
+
+# Conclusion
+
+While these results could be improved with additional feature engineering, our results have demonstrated how machine learning could help automate the salary determination process
+
+
+
         
