@@ -62,3 +62,20 @@ To model the data, I implemented the following steps:
     * less_than_HighSchool – an indicator for without high school completion
     * eduAndExp – indicates masters or higher education and more than five years of experience
     * notEduNotExp – indicates no college and less than one-year experience
+- Fitted 3 models below with selected hyperparameters for tuning:
+    * Random Forest Regressor:
+        - n_estimators: [0,75,100,150,200,1000]
+        - max_features: ['auto','sqrt', 'log2',  0.33]
+    * Gradient Boosting Regressor:
+        - 	n_estimators: [100,200]
+        - learning_rate: [0.05,0.1,0.2]
+        - max_depth: [1,3,5]
+        - subsample: [0.5,0.7,1.0]
+    * Lasso:
+        - alpha: [0.001, 0.005, 0.01, 0.05, 0.1, 0.5, 1, 5, 10]
+- Performed a 10 folds randomized search cross validation on the data and selected the best performing model with the least prediction error (i.e. lowest mean squared error)
+
+For detailed code for the modeling process please see 04. Data_Modeling 
+        
+        
+        
