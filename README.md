@@ -40,7 +40,7 @@ I took the following steps and made the following observations:
 
 For detailed code and charts from the EDA process please see: <b/>02. Data_Exploration</b>
 
-# Preprocessing
+# Data Preprocessing
 
 As part of data cleaning I implemented the following steps:
 - Removed all jobs with no salaries
