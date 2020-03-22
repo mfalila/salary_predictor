@@ -41,3 +41,17 @@ I took the following steps and made the following observations:
 For detailed code and charts from the EDA process please see: <b/>02. Data_Exploration</b>
 
 # Preprocessing
+
+As part of data cleaning I implemented the following steps:
+- Removed all jobs with no salaries
+- Build a data transformation pipeline to:
+    * Separate categorical and numerical features and transform those features in parallel:
+      - For the categorical features:
+           * Ordinal encoded the degree feature as
+                  {'NONE': 0, 'HIGH_SCHOOL': 1, 'BACHELORS': 2, 'MASTERS': 3, 'DOCTORAL': 4}
+           * Numerically encoded all remaining categorical features with pandas factorize method           
+      - For numerical features:
+           * Applied standardization to all numerical features
+    * No additional steps were needed as the dataset was now clean and ready for modeling
+
+For detailed code and charts from preprocessing please see: 03. Data_Exploration and 04: Data_Modeling
