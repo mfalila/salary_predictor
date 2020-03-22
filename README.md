@@ -83,7 +83,14 @@ The Gradient Boosting Regressor performed best on our data with a prediction err
 
 # Conclusion
 
-While these results could be improved with additional feature engineering, our results have demonstrated how machine learning could help automate the salary determination process
+While these results could be improved with additional feature engineering, our results have demonstrated how machine learning could help automate the salary determination process.
+
+References
+
+CareerBuilder, Inc. (2017, March 9). More Than Half of HR Managers Say Artificial Intelligence Will Become a Regular Part of HR in Next 5 Years. Retrieved March 22, 2020 from http://press.careerbuilder.com/2017-05-18-More-Than-Half-of-HR-Managers-Say-Artificial-Intelligence-Will-Become-a-Regular-Part-of-HR-in-Next-5-Years
+
+Heathfield, S. M. (2019, June 25).  How Does a Salary Range Work? Retrieved March 22, 2020 from https://www.thebalancecareers.com/how-does-a-salary-range-work-1918256
+
 
 
 
