@@ -67,7 +67,7 @@ To model the data, I implemented the following steps:
         - n_estimators: [0,75,100,150,200,1000]
         - max_features: ['auto','sqrt', 'log2',  0.33]
     * Gradient Boosting Regressor:
-        - 	n_estimators: [100,200]
+        - n_estimators: [100,200]
         - learning_rate: [0.05,0.1,0.2]
         - max_depth: [1,3,5]
         - subsample: [0.5,0.7,1.0]
