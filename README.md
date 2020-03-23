@@ -38,7 +38,7 @@ I took the following steps and made the following observations:
  - The target variable followed a normal distribution, giving us more algorithm options for modeling the data
  - No missing values were found
 
-For detailed code and charts from the EDA process please see: <b/>02. Data_Exploration</b>
+For detailed code and charts from the EDA process please see: <b/>notebooks/02. Data_Exploration</b>
 
 # Data Preprocessing
 
@@ -54,7 +54,7 @@ As part of data cleaning I implemented the following steps:
            * Applied standardization to all numerical features
     * No additional steps were needed as the dataset was now clean and ready for modeling
 
-For detailed code and charts from preprocessing please see: <b/>03. Data_Exploration</b> and <b/>04: Data_Modeling</b>
+For detailed code and charts from preprocessing please see: <b/>notebooks/03. Data_Exploration</b> and <b/>notebooks/04: Data_Modeling</b>
 
 # Data Modeling
 To model the data, I implemented the following steps:
@@ -75,7 +75,7 @@ To model the data, I implemented the following steps:
         - alpha: [0.001, 0.005, 0.01, 0.05, 0.1, 0.5, 1, 5, 10]
 - Performed a 10 folds randomized search cross validation on the data and selected the best performing model with the least prediction error (i.e. lowest mean squared error)
 
-For detailed code for the modeling process please see <b/>04. Data_Modeling</b> 
+For detailed code for the modeling process please see <b/>notebooks/04. Data_Modeling</b> 
         
 # Results
 
