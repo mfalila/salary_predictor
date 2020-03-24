@@ -9,7 +9,7 @@ Employers and human resources professionals must consider many decisions careful
 
 To determine salary ranges, many HR professionals consult trustworthy resources of salary research with the aim of determining market pay rates established through market pay studies for people doing similar work in similar industries in the same region or country in addition to accounting for attributes unique to employees such as educational level, skill, and experience, and regulatory requirements like Equal Pay and minimum wage requirements (Heathfield, 2019), which can take up a significant amount of time. According to a national study conducted by  Harris Poll on behalf of CareerBuilder in 2017,  HR managers loose up to 14 hours per week for the lack of automation. But thanks to improvements in machine learning and predictive analytics, HR professional no longer need to waste their valuable time calculating salary ranges. 
 
-In this project I demonstrate building a salary predicting model for new job postings given some features of historical job postings. My aim is to demonstrate how machine learning could automate the salary determination task.
+In this project I demonstrate building a salary prediction model for new job postings given some features of historical job postings. My aim is to demonstrate how machine learning could automate the salary determination task.
 
 # Data Collection
 
