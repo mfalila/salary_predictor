@@ -54,7 +54,7 @@ As part of data cleaning I implemented the following steps:
            * Applied standardization to all numerical features
     * No additional steps were needed as the dataset was now clean and ready for modeling
 
-For detailed code and charts from preprocessing please see:**[03. Data_Preprocessing](https://github.com/mfalila/salary_predictor/blob/master/notebooks/03.%20Data_Preprocessing.ipynb)** and **[04: Data_Modeling](https://github.com/mfalila/salary_predictor/blob/master/notebooks/04.%20Data_modeling.ipynb)**
+For detailed code and charts from preprocessing please see: **[03. Data_Preprocessing](https://github.com/mfalila/salary_predictor/blob/master/notebooks/03.%20Data_Preprocessing.ipynb)** and **[04: Data_Modeling](https://github.com/mfalila/salary_predictor/blob/master/notebooks/04.%20Data_modeling.ipynb)**
 
 
 # Data Modeling
@@ -76,7 +76,8 @@ To model the data, I implemented the following steps:
         - alpha: [0.001, 0.005, 0.01, 0.05, 0.1, 0.5, 1, 5, 10]
 - Performed a 10 folds randomized search cross validation on the data and selected the best performing model with the least prediction error (i.e. lowest mean squared error)
 
-For detailed code for the modeling process please see <b/>notebooks/04. Data_Modeling</b> 
+For detailed code for the modeling process please see: **[04. Data_Modeling](https://github.com/mfalila/salary_predictor/blob/master/notebooks/04.%20Data_modeling.ipynb)** 
+
         
 # Results
 
