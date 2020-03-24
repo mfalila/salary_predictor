@@ -38,7 +38,7 @@ I took the following steps and made the following observations:
  - The target variable followed a normal distribution, giving us more algorithm options for modeling the data
  - No missing values were found
 
-For detailed code and charts from the EDA process please see: **[02. Data_Exploration](https://github.com/mfalila/salary_predictor/blob/master/notebooks/02.%20Data_Exploration.ipynb)
+For detailed code and charts from the EDA process please see: **[02. Data_Exploration]**(https://github.com/mfalila/salary_predictor/blob/master/notebooks/02.%20Data_Exploration.ipynb)
 
 # Data Preprocessing
 
