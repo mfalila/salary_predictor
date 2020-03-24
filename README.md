@@ -54,7 +54,8 @@ As part of data cleaning I implemented the following steps:
            * Applied standardization to all numerical features
     * No additional steps were needed as the dataset was now clean and ready for modeling
 
-For detailed code and charts from preprocessing please see: <b/>notebooks/03. Data_Exploration</b> and <b/>notebooks/04: Data_Modeling</b>
+For detailed code and charts from preprocessing please see:**[03. Data_Preprocessing](https://github.com/mfalila/salary_predictor/blob/master/notebooks/03.%20Data_Preprocessing.ipynb)** and **[04: Data_Modeling](https://github.com/mfalila/salary_predictor/blob/master/notebooks/04.%20Data_modeling.ipynb)**
+
 
 # Data Modeling
 To model the data, I implemented the following steps:
